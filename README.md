@@ -1,22 +1,38 @@
 # Parkinson’s Disease Prediction Project
 
-This project focuses on predicting Parkinson’s disease using biomedical voice measurements.  
-I worked with a dataset containing various voice-related features, cleaned and preprocessed the data, visualized important patterns, and prepared the data for machine learning models.  
-The goal is to accurately classify whether a person has Parkinson’s disease based on their vocal biomarkers.
+## About the Project
+
+Parkinson’s disease is a progressive neurological disorder that affects movement and speech.  
+Voice changes are often among the early symptoms, making voice data a valuable resource for early detection.
+
+In this project, I worked with a biomedical voice dataset containing features extracted from voice recordings of healthy individuals and Parkinson’s patients.  
+The objective is to predict the presence of Parkinson’s disease by analyzing these voice features using machine learning techniques.
+
+The project involves:
+- Cleaning and preprocessing the dataset.
+- Exploring the data through visualizations to identify important patterns.
+- Preparing the data for model building.
+- Setting up a framework for future model training and evaluation.
+
+This project demonstrates how data science and machine learning can contribute to early detection of medical conditions, potentially assisting healthcare professionals in diagnosis.
 
 ## Features Used
-- Various vocal measurements like frequency, jitter, shimmer, and harmonic-to-noise ratio.
-- Biomedical voice signals data collected from healthy and Parkinson’s patients.
+- Average vocal frequency (MDVP:Fo(Hz))
+- Variation in vocal frequency (Jitter)
+- Variation in amplitude (Shimmer)
+- Measures of noise-to-harmonics ratio
+- Other vocal signal properties
 
-## Steps Involved
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Data Preparation for Machine Learning
-5. (Optional) Model Training
+## Project Workflow
+1. **Data Loading:** Imported the Parkinson’s disease dataset.
+2. **Data Cleaning:** Dropped irrelevant columns and handled missing values if any.
+3. **Exploratory Data Analysis (EDA):** Visualized feature distributions and relationships using plots.
+4. **Data Preparation:** Selected features and labels for machine learning tasks.
 
-## Tools and Technologies
+## Technologies Used
 - Python
 - Pandas
 - Matplotlib
-- Scikit-learn
+- Scikit-learn (optional for modeling)
+
+
